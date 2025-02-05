@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+} 
+
+.bod{
+  display: flex;
+  flex: 1 1; 
+  justify-content: space-around;
+  align-items: center;
+}
+.board {
+  display: grid;
+  border: 1px solid red;
+  grid-template: 100px 100px 100px/100px 100px 100px;
+  margin-top: 10%;
+
+
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.case {
+  border: solid 1px red;
+  font-size: 80px;
+  text-align: center;
+}
+
+.info {
+  margin-right: auto;
+}
+
+.player {
+  margin-left: auto;
+}
+
